@@ -1,0 +1,9 @@
+@import "../../sass/_mixing";
+@import "../../sass/_variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $grey-1;
+}
