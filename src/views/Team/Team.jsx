@@ -1,4 +1,3 @@
-import React from "react";
 import "./index.scss";
 import HeaderTeam from "../../components/molecule/HeaderTeam/HeaderTeam";
 import SectionTeam from "../../components/molecule/SectionTeam/SectionTeam";
