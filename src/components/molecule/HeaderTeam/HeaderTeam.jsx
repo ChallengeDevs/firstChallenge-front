@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.scss";
 import Planet from "/planeta-terra.png";
 
@@ -11,7 +12,7 @@ export default function HeaderTeam() {
             alt="Logotipo Planeta"
             aria-label="Logotipo Planeta"
           />
-          <a href="/">BACK</a>
+          <Link to="/">BACK</Link>
         </nav>
       </header>
     </>
