@@ -1,0 +1,111 @@
+@import "../../../sass/_mixing";
+@import "../../../sass/_variables";
+
+.containerHeader {
+  &__box {
+    height: 4rem;
+    width: 100%;
+    @include flex(space-between, center);
+    padding: 0 6.5rem 0 6.5rem;
+    border-bottom: 1.5px solid $primary;
+    img {
+      width: 2.25rem;
+      height: 2.25rem;
+      background-color: transparent;
+    }
+    a {
+      all: unset;
+      @include flex(center, center);
+      background-color: $primary;
+      color: $grey-1;
+      border: 2px solid $primary;
+      border-radius: $radius;
+      height: 1.5rem;
+      width: 4rem;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: 300ms ease-in-out;
+    }
+    a:hover {
+      transition: 300ms ease-in-out;
+      transform: scale(1.1);
+      background-color: transparent;
+      color: $primary;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .containerHeader {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 4rem 0 4rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .containerHeader {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 2rem 0 2rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}

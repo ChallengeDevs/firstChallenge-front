@@ -1,17 +1,17 @@
 import "./index.scss";
 import Planet from "/planeta-terra.png";
 
-export default function Header() {
+export default function HeaderTeam() {
   return (
     <>
-      <header className="containerHeaderFirst">
-        <nav className="containerHeaderFirst__box">
+      <header className="containerHeader">
+        <nav className="containerHeader__box">
           <img
             src={Planet}
             alt="Logotipo Planeta"
             aria-label="Logotipo Planeta"
           />
-          <a href="/team">TEAM</a>
+          <a href="/">BACK</a>
         </nav>
       </header>
     </>

@@ -1,35 +1,444 @@
 @import "../../../sass/_mixing";
 @import "../../../sass/_variables";
 
-.containerHeader {
+.containerHeaderFirst {
   &__box {
     height: 4rem;
     width: 100%;
     @include flex(space-between, center);
-    padding: 0 4rem 0 4rem;
+    padding: 0 6.5rem 0 6.5rem;
     border-bottom: 1.5px solid $primary;
     img {
       width: 2.25rem;
       height: 2.25rem;
       background-color: transparent;
-      cursor: pointer;
     }
-    button {
+    a {
+      all: unset;
+      @include flex(center, center);
       background-color: $primary;
       color: $grey-1;
       border: 2px solid $primary;
       border-radius: $radius;
-      height: 2rem;
-      width: 5rem;
+      height: 1.5rem;
+      width: 4rem;
       cursor: pointer;
       font-weight: 600;
+      font-size: 0.9rem;
       transition: 300ms ease-in-out;
     }
-    button:hover {
+    a:hover {
       transition: 300ms ease-in-out;
       transform: scale(1.1);
       background-color: transparent;
       color: $primary;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 4.5rem 0 4.5rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (max-width: 783px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 11rem 0 11rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (max-width: 715px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 9rem 0 9rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 7rem 0 7rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (max-width: 590px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 4rem 0 4rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 2rem 0 2rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (min-width: 1368px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 7.5rem 0 7.5rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (min-width: 1455px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 12rem 0 12rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (min-width: 1664px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 18rem 0 18rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (min-width: 1768px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 22rem 0 22rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media (min-width: 1900px) {
+  .containerHeaderFirst {
+    &__box {
+      height: 4rem;
+      width: 100%;
+      @include flex(space-between, center);
+      padding: 0 24.5rem 0 24.5rem;
+      border-bottom: 1.5px solid $primary;
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: transparent;
+      }
+      a {
+        all: unset;
+        @include flex(center, center);
+        background-color: $primary;
+        color: $grey-1;
+        border: 2px solid $primary;
+        border-radius: $radius;
+        height: 1.5rem;
+        width: 4rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.9rem;
+        transition: 300ms ease-in-out;
+      }
+      a:hover {
+        transition: 300ms ease-in-out;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $primary;
+      }
     }
   }
 }
